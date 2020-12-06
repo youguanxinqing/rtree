@@ -9,4 +9,4 @@ It is a toy and there are many bugs fixed and features added. When I would be fr
 $ rtree [dir]
 ```
 
-![](./.img/Snipaste_2020-12-06_20-42-13.png)
+![](.img/Snipaste_2020-12-06_20-42-13.png)
