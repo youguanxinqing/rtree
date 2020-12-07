@@ -131,9 +131,9 @@ impl std::fmt::Display for File {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> fmt::Result {
         let mut s = String::new();
         for _ in 0..self.level {
-            s.push_str("| ");
+            s.push_str("├   ");
         }
-        s.push_str("|-");
+        s.push_str("├── ");
         s.push_str(self.filename.as_str());
         if self.is_dir {
             s.push_str("(d)")
